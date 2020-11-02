@@ -28,9 +28,9 @@ function decrement(n)
   return n-1;
 }
 
-function makeInt(n)
+function makeInt(n, 10)
 {
-  return parseInt(n);
+  return parseInt(10, n);
 }
 
 function preserveDecimal(n)
